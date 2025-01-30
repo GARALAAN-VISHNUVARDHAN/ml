@@ -1,3 +1,4 @@
+#using this code we predict marks using hours of study and hours of study using marks with the simple given data
 import numpy as np
 import pandas as pd
 from sklearn.model_selection import train_test_split
@@ -31,3 +32,7 @@ hours_predict=predict_hours(m1)
 marks_predict=predict_marks(h1)
 print(f"predicted marks for{h1}hours of study:{marks_predict[0]}")
 print(f"predicted hours for{m1} marks:{hours_predict}")
+#enter number hours study 5
+#enter number marks to get hours 77
+#predicted marks for5.0hours of study:58.189655172413794
+#predicted hours for77.0 marks:8.073239436619719
